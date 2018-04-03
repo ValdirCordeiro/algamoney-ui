@@ -1,5 +1,7 @@
 # AlgamoneyUi
 
+Interface cliente para a api do curso de FullStack Angular, Rest e SpringBoot da AlgaWorks.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
 ## Development server
