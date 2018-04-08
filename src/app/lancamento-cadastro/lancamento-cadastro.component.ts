@@ -11,6 +11,22 @@ export class LancamentoCadastroComponent implements OnInit {
 
   pt_BR: any;
 
+  tipos = [
+    { label: 'Receita', value: 'RECEITA'},
+    { label: 'Despesa', value: 'DESPESA'},
+  ];
+
+  categorias = [
+    { label: 'Alimentação', value: 1},
+    { label: 'Transporte', value: 2},
+  ];
+
+  pessoas = [
+    { label: 'João da Silva', value: 1},
+    { label: 'Sebastião de Souza', value: 2},
+    { label: 'Maria Abravanel', value: 3},
+  ];
+
   ngOnInit() {
       this.pt_BR = {
         firstDayOfWeek: 0,
