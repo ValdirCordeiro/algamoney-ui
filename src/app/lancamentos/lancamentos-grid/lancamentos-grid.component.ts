@@ -2,10 +2,10 @@ import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-lancamentos-grid',
-  templateUrl: './lacamentos-grid.component.html',
-  styleUrls: ['./lacamentos-grid.component.css']
+  templateUrl: './lancamentos-grid.component.html',
+  styleUrls: ['./lancamentos-grid.component.css']
 })
-export class LacamentosGridComponent  {
+export class LancamentosGridComponent  {
 
   @Input() lancamentos = [];
 
