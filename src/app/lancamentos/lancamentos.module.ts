@@ -16,6 +16,8 @@ import { ButtonModule } from 'primeng/components/button/button';
 import { InputTextModule } from 'primeng/components/inputtext/inputtext';
 import { LancamentosGridComponent } from './lancamentos-grid/lancamentos-grid.component';
 
+import { SharedModule } from '../shared/shared.module';
+
 @NgModule({
   imports: [
     CommonModule,
@@ -29,7 +31,9 @@ import { LancamentosGridComponent } from './lancamentos-grid/lancamentos-grid.co
     CalendarModule,
     SelectButtonModule,
     DropdownModule,
-    CurrencyMaskModule
+    CurrencyMaskModule,
+
+    SharedModule
   ],
   declarations: [
     LancamentoCadastroComponent,
